@@ -5,10 +5,17 @@
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/docs/</loc>
+    <lastmod>2024-12-11T00:16:58+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2024-12-11T00:16:58+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/hello-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/hi-world/</loc>
   </url><url>
     <loc>//localhost:1313/docs/overview/</loc>
+    <lastmod>2024-12-11T00:16:58+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>
