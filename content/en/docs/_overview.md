@@ -5,11 +5,12 @@ aliases:
 - "/docs"
 ---
 
-# Overview
-
 ## About Me
-*(This section will be filled out with your personal details and background)*
 
+> Hi, I'm **K M Rejowan Ahmmed**, an **Android Developer** based in **Dhaka, Bangladesh** with over **5 years of experience**. I specialize in building Android apps using **Kotlin**, **Jetpack Compose**, and other modern Android tools. I also create content to help others learn Android development and Kotlin.
+
+
+<p align="center"> <a href="https://github.com/ahmmedrejowan/"><img src="https://img.shields.io/badge/GitHub-%20-grey?style=flat&logo=github&logoColor=white&labelColor=24292e" /> </a> <a href="https://www.linkedin.com/in/ahmmedrejowan/"><img src="https://img.shields.io/badge/LinkedIn-%20-grey?style=flat&logo=linkedin&logoColor=white&labelColor=0077B5" /> </a>  <a href="https://twitter.com/ahmmedrejowan"> <img src="https://img.shields.io/badge/X-%20-grey?style=flat&logo=x&logoColor=white&labelColor=1DA1F2" /> </a> <a href="https://dev.to/ahmmedrejowan">  <img src="https://img.shields.io/badge/Dev-%20-grey?style=flat&logo=devdotto&logoColor=white&labelColor=0A0A0A" /> </a>  <a href="https://stackoverflow.com/users/9932194/k-m-rejowan-ahmmed"> <img src="https://img.shields.io/badge/Stack_Overflow-%20-grey?style=flat&logo=stack-overflow&logoColor=white&labelColor=FE7A16" /> </a> <a href="https://www.facebook.com/ahmmedrejowan/"> <img src="https://img.shields.io/badge/Facebook-%20-grey?style=flat&logo=facebook&logoColor=white&labelColor=1877F2" /> </a>  <a href="mailto:kmrejowan@gmail.com">  </p>
 
 
 ## What is DSA.kt?
