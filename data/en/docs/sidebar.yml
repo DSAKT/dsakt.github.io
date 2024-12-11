@@ -3,9 +3,8 @@
     - title: Overview
 
 - title: Data Structures
-  replaceFirstPageTitle: Contents
   pages:
-    - title: Data Structure Contents
+    - title: DS Contents
     - title: Arrays
     - title: Lists
     - title: Sets
