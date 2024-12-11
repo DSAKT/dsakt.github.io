@@ -3,8 +3,8 @@ title: DS Contents
 slug: ds-contents
 ---
 
+## Table of Contents
 The data structure module contains the following data structures:
-
 - **Array & Specialized Arrays** [⤴](https://dsakt.github.io/docs/arrays)
     - **Array<T>**: A fixed-size array that holds elements of type `T`.
     - **ByteArray, CharArray, IntArray, etc.**: Specialized arrays for primitive types (e.g., `Int`, `Char`, `Byte`).
