@@ -12,7 +12,7 @@ languages:
     contentDir: content/en
     title: DSA in Kotlin
     params:
-      description: Data Structures and Algorithms in Kotlin
+      description: Data Structures and Algorithms in Kotlin with explanations and implementations.
 
 services:
   googleAnalytics:
