@@ -1,9 +1,21 @@
-- title: Documentation
+- title: Overview
   pages:
     - title: Overview
 
-- title: Basics
+- title: Data Structures
   pages:
-    - title: Hello World
-    - title: Hi World
+    - title: Contents
+    - title: Arrays
+    - title: Lists
+    - title: Sets
+    - title: Maps
+    - title: Queues
+    - title: Stacks
+    - title: Tree
+    - title: Pair & Triple
+    - title: Set Variants
+    - title: Map Variants
+    - title: Range & Sequence
+
+
 
