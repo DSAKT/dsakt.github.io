@@ -1,0 +1,21 @@
+name = 'E25DX'
+license = 'MIT'
+licenselink = 'https://github.com/dumindu/E25DX/blob/main/LICENSE'
+description = 'Your next documentation theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/dumindu/E25DX'
+
+# If you have a running demo of the theme
+demosite = 'https://learning-rust.github.io/docs/overview/'
+
+# Taxonomy terms
+tags = ['modern', 'dark mode', 'light mode', 'responsive', 'documentation']
+features = ['seo', 'syntax highlighting', 'customizable', 'responsive', 'dark mode', 'light mode']
+
+# If the theme has a single author
+[author]
+name = 'Dumindu Madunuwan'
+homepage = 'https://github.com/dumindu'
+
+

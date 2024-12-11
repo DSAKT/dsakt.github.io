@@ -1,0 +1,21 @@
+{
+  "name": "DSA in Kotlin",
+  "short_name": "dsakt",
+  "description": "Data Structures and Algorithms in Kotlin",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#866ee7",
+  "theme_color": "#866ee7"
+}
