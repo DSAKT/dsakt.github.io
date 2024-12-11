@@ -82,7 +82,7 @@
       <link>//localhost:1313/docs/sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/sets/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;set-in-kotlin&#34;&gt;&lt;strong&gt;Set in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Set&lt;/strong&gt; in Kotlin is a collection that contains &lt;strong&gt;unique elements&lt;/strong&gt;. The main characteristic of a set is that it does not allow &lt;strong&gt;duplicate elements&lt;/strong&gt;. Sets are unordered, meaning they do not maintain the order of the elements.&lt;/p&gt;&#xA;&lt;p&gt;Kotlin provides both &lt;strong&gt;read-only&lt;/strong&gt; and &lt;strong&gt;mutable&lt;/strong&gt; sets:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;Set&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/strong&gt;: A &lt;strong&gt;read-only&lt;/strong&gt; set, meaning the elements cannot be added, removed, or changed after the set is created.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;MutableSet&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/strong&gt;: A &lt;strong&gt;mutable&lt;/strong&gt; set, which allows you to add, remove, and modify elements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;creating-a-set&#34;&gt;&lt;strong&gt;Creating a Set&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Kotlin offers several ways to create sets:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stacks</title>
