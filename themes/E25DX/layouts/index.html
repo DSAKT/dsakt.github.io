@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="{{ .Site.Params.title | .RenderString }}" property="og:title">
+    <meta content="{{ .Site.Params.description | .RenderString }}" property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="https://dsakt.github.io/favicon/social.png" property="og:image">
+
     <meta content="{{ .Site.Params.description | .RenderString }}" name="description">
     <meta content="{{ .Site.Params.author.name }}" name="author">
     <meta content="{{ .Site.Params.project.themeColor.light }}" media="(prefers-color-scheme: light)"
