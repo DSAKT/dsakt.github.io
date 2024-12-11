@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default `en-US` }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="{{ .Site.Params.description | .RenderString }}" name="description">
+    <meta content="{{ .Site.Params.author.name }}" name="author">
+    <meta content="{{ .Site.Params.project.themeColor.light }}" media="(prefers-color-scheme: light)"
+          name="theme-color">
+    <meta content="{{ .Site.Params.project.themeColor.dark }}" media="(prefers-color-scheme: dark)" name="theme-color">
+    {{ with .Params.robots -}}
+    <meta content="{{ . }}" name="robots">
+    {{- end }}
+
+    <title>{{ .Site.Title | .RenderString }} · {{ .Site.Params.description | .RenderString }}</title>
+    <link href="{{ .Permalink }}" rel="canonical">
+
+    {{- $css := slice (resources.Get "css/reset.css") (resources.Get "css/theme.css") (resources.Get "css/_btn.css")
+    (resources.Get "css/home.css") | resources.Concat "assets/css/home.css" | minify | fingerprint }}
+    <link href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.integrity }}" rel="stylesheet">
+
+    {{ partial "favicons.html" . }}
+    {{ partial "analytics" . }}
+</head>
+
+<body>
+
+<div id="content-wrapper">
+    <header>
+        <!--    <a href="/" class="site-logo">{{ .Site.Title }}</a>-->
+        <a href="/"><img src="/favicon/dsalogo.png" width="188px" height="50px"/> </a>
+
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <header>
+                    <h1>{{ .Site.Params.home.heading }}{{ with .Site.Params.home.headingSegment2 }}<span>{{.}}</span>{{
+                        end }}</h1>
+                    <p>{{ .Site.Params.home.description }}</p>
+                </header>
+                <div>
+                    <a class="btn" href="{{ .Site.Params.home.getStartedPath }}">{{ i18n "getStarted" }}</a>
+                    <a class="btn" href="https://github.com/{{ .Site.Params.project.github.repo }}" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>{{ i18n "builtByAndCopyright" }}<a href="{{ .Site.Params.author.url }}" target="_blank">{{ .Site.Params.author.name }}</a> • {{ i18n "hostedBy" }} <a href="https://github.com/{{ .Site.Params.project.github.repo }}" target="_blank">GitHub</a></div>
+
+        <div>
+            <button class="btn"><i>☀️</i><i>⁄</i><i>🌑</i></button>
+        </div>
+    </footer>
+</div>
+
+<div id="body-model-outer"></div>
+
+{{- $js := slice (resources.Get "js/color-preference.js") | resources.Concat "assets/js/home.js" | minify | fingerprint
+}}
+<script integrity="{{ $js.Data.integrity }}" src="{{ $js.RelPermalink }}" type="text/javascript"></script>
+</body>
+</html>
