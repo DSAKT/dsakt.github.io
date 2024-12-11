@@ -25,6 +25,22 @@ There are plenty of tutorials available on Data Structures and Algorithms, but m
 
 **DSA.kt** was created to solve this problem. The aim is to provide in-depth tutorials with a **Kotlin-first approach**, emphasizing **Kotlin-specific features**, like its **extension functions**, which allow developers to write more concise, readable, and efficient code. Whether you’re preparing for coding interviews or looking to improve your problem-solving skills, this site offers Kotlin-centric solutions that will help you write less code and understand algorithms deeply.
 
+## What It'll Cover
+
+### **Data Structures**
+- Comprehensive coverage of **Kotlin data structures** with examples.
+- Insights into **compatibility with Java** and equivalent Java implementations.
+- Real-world use cases to understand when and where to use each structure.
+
+### **Algorithms**
+- Clear explanations of **commonly used algorithms**, including sorting, searching, dynamic programming, and graph traversal.
+- Code syntax and examples written in Kotlin.
+- Side-by-side **Java examples** for easy comparison and interoperability.
+
+### **Problem Solving**
+- Step-by-step solutions to popular **LeetCode problems**.
+- Instructions and guides for approaching and solving algorithmic challenges.
+- Clean and efficient **Kotlin code** implementations, ready for interviews or projects.
 
 
 ## Credits
