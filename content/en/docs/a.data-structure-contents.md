@@ -1,6 +1,6 @@
 ---
 title: DS Contents
-slug: data-structure-contents
+slug: ds-contents
 ---
 
 The data structure module contains the following data structures:
