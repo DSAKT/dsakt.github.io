@@ -102,7 +102,7 @@ main {
 
 #content-wrapper > footer > div:first-child a {
   background: var(--foreground-highlight);
-  color: var(--color-highlight);
+  color: var(--color-highlight-secondary);
   border-radius: var(--radius);
   cursor: pointer;
   padding: 0 var(--padding_d2);
@@ -256,15 +256,15 @@ main > aside.open {
 }
 
 #aside-wrapper > aside > nav > details > ul > li > a.active {
-  background: var(--foreground-highlight);
+  background: var(--foreground-highlight-secondary);
   color: var(--color-highlight);
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
 
 #aside-wrapper > aside > nav > details > ul > li > a.active::before {
-  background: var(--foreground-highlight);
-  border: var(--foreground-highlight);
+  background: var(--foreground-highlight-secondary);
+  border: var(--foreground-highlight-secondary);
   left: calc((var(--padding) * -.76));
 }
 
@@ -323,7 +323,7 @@ main > aside > nav {
 }
 
 #TableOfContents a.active {
-  background: var(--foreground-highlight);
+  background: var(--foreground-highlight-secondary);
   color: var(--color-highlight);
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);

@@ -15,8 +15,11 @@
   --foreground: rgba(247, 247, 247, .25);
   --foreground-hover: rgba(220, 220, 220, .35);
 
-  --foreground-highlight: #f5d41f;
+  --foreground-highlight: #866ee7;
+  --foreground-highlight-secondary: #f5d41f;
   --color-highlight: #130606;
+  --color-highlight-secondary: #fdfdfd;
+
 
   --model-background: #ffffff;
   --model-foreground: rgba(247, 247, 247, .25);

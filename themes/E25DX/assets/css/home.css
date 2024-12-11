@@ -51,7 +51,7 @@ body {
 
 #content-wrapper > footer > div:first-child a {
   background: var(--foreground-highlight);
-  color: var(--color-highlight);
+  color: var(--color-highlight-secondary);
   border-radius: var(--radius);
   cursor: pointer;
   padding: 0 var(--padding_d2);
@@ -83,7 +83,7 @@ main > section > div > header {
   flex-direction: column;
   text-align: center;
   padding: var(--padding_x2) var(--padding);
-  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🦄</text></svg>"), auto;
+  /*cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🦄</text></svg>"), auto;*/
 }
 
 main > section > div > header > h1 {
@@ -117,7 +117,7 @@ main > section > div > div > .btn {
 }
 
 main > section > div > div > .btn:first-child, main > section > div > div > .btn:first-child:hover {
-  background: var(--foreground-highlight);
+  background: var(--foreground-highlight-secondary);
   color: var(--color-highlight);
 }
 
