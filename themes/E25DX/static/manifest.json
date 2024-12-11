@@ -1,7 +1,7 @@
 {
-  "name": "todo",
-  "short_name": "todo",
-  "description": "todo",
+  "name": "DSA in Kotlin",
+  "short_name": "dsakt",
+  "description": "Data Structures and Algorithms in Kotlin",
   "start_url": "/?source=pwa",
   "display": "standalone",
   "icons": [
