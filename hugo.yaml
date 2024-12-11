@@ -16,7 +16,7 @@ languages:
 
 services:
   googleAnalytics:
-    ID: G-XXXXXXXXXX
+    ID: G-Z48ECVLDQE
 
 markup:
   highlight:
