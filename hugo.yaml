@@ -24,6 +24,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      hardWraps: true
     parser:
       attribute:
         block: true

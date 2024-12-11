@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Data Structures and Algorithms in Kotlin">
+  <meta name="description" content="Data Structures and Algorithms in Kotlin with explanations and implementations.">
   <meta name="author" content="K M Rejowan Ahmmed">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#101010" media="(prefers-color-scheme: dark)">
@@ -12,20 +12,20 @@
 
   <title>Overview · DSA in Kotlin</title>
   <link rel="canonical" href="//localhost:1313/docs/overview/">
-  <link rel="stylesheet" href="/assets/css/docs.min.55e8a7678e986f6333c09fb6a81696af67711e98d72db2cb245352b002d5c4c8.css" integrity="">
+  <link rel="stylesheet" href="/assets/css/docs.min.076e4563fe5c9418770fecc4bb4e2108472fdfedd090a314aa11a07e9dcc8342.css" integrity="">
 
   <link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon/favicon.ico">
-<link rel="icon" href="/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="icon" href="/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" sizes="180x180">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<link rel="icon" href="/favicon/favicon.png">
+<link rel="icon" href="/favicon/favicon.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/favicon/favicon.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon/favicon.png" sizes="180x180">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z48ECVLDQE"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-XXXXXXXXXX');
+    gtag('config', 'G-Z48ECVLDQE');
 </script>
 </head>
 
@@ -38,11 +38,11 @@
       <div>
         <button class="btn"><i>❌</i>Close</button>
       </div>
-      <a href="/" class="site-logo">DSA in Kotlin</a>
+      <a href="/" class="site-logo"><img src="/favicon/dsalogo.png" width="188px" height="50px"/></a>
 
       <nav role="navigation">
         <details open>
-          <summary>Documentation</summary>
+          <summary>Overview</summary>
           <ul><li>
               
                 
@@ -56,22 +56,112 @@
 
           </ul>
         </details><details open>
-          <summary>Basics</summary>
+          <summary>Data Structures</summary>
           <ul><li>
               
                 
-                <a class="" href="/docs/hello-world/">
+                <a class="" href="/docs/ds-contents/">
                   
-                  Hello World
+                  DS Contents
                   
                 </a>
               
             </li><li>
               
                 
-                <a class="" href="/docs/hi-world/">
+                <a class="" href="/docs/arrays/">
                   
-                  Hi World
+                  Arrays
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/lists/">
+                  
+                  Lists
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/sets/">
+                  
+                  Sets
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/maps/">
+                  
+                  Maps
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/queues/">
+                  
+                  Queues
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/stacks/">
+                  
+                  Stacks
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/trees/">
+                  
+                  Trees
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/pair-triple/">
+                  
+                  Pair &amp; Triple
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/set-variants/">
+                  
+                  Set Variants
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/map-variants/">
+                  
+                  Map Variants
+                  
+                </a>
+              
+            </li><li>
+              
+                
+                <a class="" href="/docs/range-sequence/">
+                  
+                  Range &amp; Sequence
                   
                 </a>
               
@@ -85,7 +175,7 @@
 
   <div id="content-wrapper">
     <header>
-      <a href="/" class="site-logo">DSA in Kotlin</a>
+      <a href="/" class="site-logo"><img src="/favicon/dsalogo.png" width="188px" height="50px"/></a>
     </header>
 
     <main>
@@ -99,24 +189,68 @@
           <p></p>
         </header>
         <div id="article-body">
-          <h1 id="overview">Overview</h1>
-<p>This is the overview page.</p>
-<h2 id="section-1">Section 1</h2>
-<p>This is the first section.</p>
-<h2 id="section-2">Section 2</h2>
-<p>This is the second section.</p>
-<pre tabindex="0"><code>import { Page } from &#39;@site/src/components/Page&#39;;
-</code></pre><h3 id="2-create-a-new-page">2. Create a new page</h3>
-<p>Create a new page in the <code>docs</code> directory. The file name should be the same as the <code>url</code> value in the front matter of the <code>overview.md</code> file.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">title: New Page
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">url: &#34;docs/new-page&#34;
-</span></span><span class="line"><span class="cl">   
-</span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div>
+          <h2 id="about-me"><strong>About Me</strong></h2>
+<blockquote>
+<p>Hi, I&rsquo;m <strong>K M Rejowan Ahmmed</strong>, an <strong>Android Developer</strong> based in <strong>Dhaka, Bangladesh</strong> with over <strong>5 years of experience</strong>. I specialize in building Android apps using <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and other modern Android tools. I also create content to help others learn Android development and Kotlin.</p>
+</blockquote>
+<p align="center"> <a href="https://github.com/ahmmedrejowan/"><img src="https://img.shields.io/badge/GitHub-%20-grey?style=flat&logo=github&logoColor=white&labelColor=24292e" /> </a> <a href="https://www.linkedin.com/in/ahmmedrejowan/"><img src="https://img.shields.io/badge/LinkedIn-%20-grey?style=flat&logo=linkedin&logoColor=white&labelColor=0077B5" /> </a>  <a href="https://twitter.com/ahmmedrejowan"> <img src="https://img.shields.io/badge/X-%20-grey?style=flat&logo=x&logoColor=white&labelColor=1DA1F2" /> </a> <a href="https://dev.to/ahmmedrejowan">  <img src="https://img.shields.io/badge/Dev-%20-grey?style=flat&logo=devdotto&logoColor=white&labelColor=0A0A0A" /> </a>  <a href="https://stackoverflow.com/users/9932194/k-m-rejowan-ahmmed"> <img src="https://img.shields.io/badge/Stack_Overflow-%20-grey?style=flat&logo=stack-overflow&logoColor=white&labelColor=FE7A16" /> </a> <a href="https://www.facebook.com/ahmmedrejowan/"> <img src="https://img.shields.io/badge/Facebook-%20-grey?style=flat&logo=facebook&logoColor=white&labelColor=1877F2" /> </a>  </p>
+<h2 id="what-is-dsakt"><strong>What is DSA.kt?</strong></h2>
+<p><strong>DSA.kt</strong> is a comprehensive platform for learning <strong>Data Structures &amp; Algorithms in Kotlin</strong>. This site aims to make complex concepts in algorithms and data structures more accessible, especially for those who want to implement solutions using <strong>Kotlin</strong>.</p>
+<p>Kotlin is a modern language that is growing in popularity, particularly for Android development. While many resources cover general algorithms and data structures, they often focus on language-agnostic explanations, which can make it harder to find <strong>Kotlin-specific solutions</strong>. <strong>DSA.kt</strong> bridges this gap by offering solutions with <strong>Kotlin code examples</strong>, helping Kotlin enthusiasts learn and apply algorithms with the language’s unique features, including <strong>extension functions</strong> and <strong>null safety</strong>.</p>
+<h2 id="why-i-created-this"><strong>Why I Created This</strong></h2>
+<p>There are plenty of tutorials available on Data Structures and Algorithms, but most of them are language-agnostic, focusing on concepts rather than implementation in specific languages. For Kotlin developers, finding detailed DSA tutorials that also incorporate Kotlin&rsquo;s unique syntax and features can be challenging.</p>
+<p><strong>DSA.kt</strong> was created to solve this problem. The aim is to provide in-depth tutorials with a <strong>Kotlin-first approach</strong>, emphasizing <strong>Kotlin-specific features</strong>, like its <strong>extension functions</strong>, which allow developers to write more concise, readable, and efficient code. Whether you’re preparing for coding interviews or looking to improve your problem-solving skills, this site offers Kotlin-centric solutions that will help you write less code and understand algorithms deeply.</p>
+<h2 id="what-itll-cover"><strong>What It&rsquo;ll Cover</strong></h2>
+<h3 id="data-structures">Data Structures</h3>
+<ul>
+<li>Comprehensive coverage of <strong>Kotlin data structures</strong> with examples.</li>
+<li>Insights into <strong>compatibility with Java</strong> and equivalent Java implementations.</li>
+<li>Real-world use cases to understand when and where to use each structure.</li>
+</ul>
+<h3 id="algorithms">Algorithms</h3>
+<ul>
+<li>Clear explanations of <strong>commonly used algorithms</strong>, including sorting, searching, dynamic programming, and graph traversal.</li>
+<li>Code syntax and examples written in Kotlin.</li>
+<li>Side-by-side <strong>Java examples</strong> for easy comparison and interoperability.</li>
+</ul>
+<h3 id="problem-solving">Problem Solving</h3>
+<ul>
+<li>Step-by-step solutions to popular <strong>LeetCode problems</strong>.</li>
+<li>Instructions and guides for approaching and solving algorithmic challenges.</li>
+<li>Clean and efficient <strong>Kotlin code</strong> implementations, ready for interviews or projects.</li>
+</ul>
+<h2 id="credits"><strong>Credits</strong></h2>
+<p>Thanks to the following tools and platforms for making this project possible:</p>
+<ul>
+<li><strong>Hugo</strong> for providing the platform for this site.</li>
+<li><strong>E25DX</strong> for creating the Hugo theme used in this project.</li>
+<li><strong>GitHub</strong> for providing the platform for version control and collaboration.</li>
+<li><strong>GitHub Pages</strong> for hosting this site for free, making it easy for anyone to access and contribute.</li>
+</ul>
+<h2 id="how-can-you-contribute"><strong>How Can You Contribute?</strong></h2>
+<p>We believe in the power of community and open-source collaboration. If you’d like to contribute to <strong>DSA.kt</strong>, here’s how you can help:</p>
+<ol>
+<li><strong>Fork this repository</strong> and make your changes.</li>
+<li><strong>Submit a pull request</strong> with your improvements or additions.</li>
+<li><strong>Create an Issue</strong> if you spot any bugs or have suggestions for new content.</li>
+<li><strong>Write tutorials</strong> for algorithms or data structures that aren&rsquo;t covered yet.</li>
+</ol>
+<p>You don’t need to be an expert to contribute—just a willingness to learn and share! Your contributions can help make this platform more valuable for Kotlin developers around the world.</p>
+<h2 id="license"><strong>License</strong></h2>
+<pre tabindex="0"><code>Copyright 2024 ahmmedrejowan
+
+Licensed under the Apache License, Version 2.0 (the &#34;License&#34;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &#34;AS IS&#34; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre>
         </div>
 
         <footer>
@@ -152,7 +286,7 @@
           
 
           
-          <a href="/docs/hello-world/">Next <i>﹥</i></a>
+          <a href="/docs/ds-contents/">Next <i>﹥</i></a>
           
 
         </footer>
@@ -165,19 +299,26 @@
         <strong>On this page</strong>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#section-1">Section 1</a></li>
-    <li><a href="#section-2">Section 2</a>
+    <li><a href="#about-me"><strong>About Me</strong></a></li>
+    <li><a href="#what-is-dsakt"><strong>What is DSA.kt?</strong></a></li>
+    <li><a href="#why-i-created-this"><strong>Why I Created This</strong></a></li>
+    <li><a href="#what-itll-cover"><strong>What It&rsquo;ll Cover</strong></a>
       <ul>
-        <li><a href="#2-create-a-new-page">2. Create a new page</a></li>
+        <li><a href="#data-structures">Data Structures</a></li>
+        <li><a href="#algorithms">Algorithms</a></li>
+        <li><a href="#problem-solving">Problem Solving</a></li>
       </ul>
     </li>
+    <li><a href="#credits"><strong>Credits</strong></a></li>
+    <li><a href="#how-can-you-contribute"><strong>How Can You Contribute?</strong></a></li>
+    <li><a href="#license"><strong>License</strong></a></li>
   </ul>
 </nav>
       </aside>
     </main>
 
     <footer>
-      <div><i>🧑‍💻</i>Built by and copyright<a href="https://github.com/ahmmedrejowan/DSA.kt" target="_blank">K M Rejowan Ahmmed</a><i>📅</i> 2024-2024<i>🚀</i> <a href="https://github.com//DSAKT/dsakt.github.io" target="_blank">GitHub</a></div>
+      <div>Made with ❤️ by<a href="https://github.com/ahmmedrejowan" target="_blank">K M Rejowan Ahmmed</a> • Hosted with ❤️ by <a href="https://github.com//DSAKT/dsakt.github.io" target="_blank">GitHub</a></div>
       <div>
         <button class="btn"><i>☀️</i><i>⁄</i><i>🌑</i></button>
       </div>

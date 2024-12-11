@@ -8,17 +8,38 @@
     <language>en-US</language>
     <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>//localhost:1313/docs/hello-world/</link>
+      <title>Arrays</title>
+      <link>//localhost:1313/docs/arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/hello-world/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/arrays/</guid>
+      <description>&lt;h2 id=&#34;array-in-kotlin&#34;&gt;&lt;strong&gt;Array in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In Kotlin, an &lt;strong&gt;Array&lt;/strong&gt; is a fixed-size collection that holds elements of the same type. Once an array is created, its size cannot be changed. Arrays in Kotlin are similar to arrays in other programming languages, but they provide some added flexibility with additional features and built-in functions.&lt;/p&gt;&#xA;&lt;p&gt;An &lt;code&gt;Array&amp;lt;T&amp;gt;&lt;/code&gt; can hold any type of data (including objects and primitives), and it has a defined size that remains constant throughout its lifecycle.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hi World</title>
-      <link>//localhost:1313/docs/hi-world/</link>
+      <title>DS Contents</title>
+      <link>//localhost:1313/docs/ds-contents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/hi-world/</guid>
+      <guid>//localhost:1313/docs/ds-contents/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;p&gt;The data structure module contains the following data structures:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Array &amp;amp; Specialized Arrays&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/arrays&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Array&lt;T&gt;&lt;/strong&gt;: A fixed-size array that holds elements of type &lt;code&gt;T&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ByteArray, CharArray, IntArray, etc.&lt;/strong&gt;: Specialized arrays for primitive types (e.g., &lt;code&gt;Int&lt;/code&gt;, &lt;code&gt;Char&lt;/code&gt;, &lt;code&gt;Byte&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;List&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/lists&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;List&lt;T&gt;&lt;/strong&gt;: An ordered collection of elements, read-only.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MutableList&lt;T&gt;&lt;/strong&gt;: A list that supports modification operations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Set&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/sets&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Set&lt;T&gt;&lt;/strong&gt;: A collection that does not allow duplicates, read-only.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MutableSet&lt;T&gt;&lt;/strong&gt;: A mutable version of &lt;code&gt;Set&amp;lt;T&amp;gt;&lt;/code&gt;, supports modifications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Map&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/maps&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lists</title>
+      <link>//localhost:1313/docs/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/lists/</guid>
+      <description>&lt;h2 id=&#34;list-in-kotlin&#34;&gt;&lt;strong&gt;List in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;List&lt;/strong&gt; in Kotlin is an ordered collection of elements where each element has a specific index. Lists are a part of the &lt;strong&gt;Collections Framework&lt;/strong&gt; in Kotlin and are used to store multiple elements of the same type. Kotlin provides both &lt;strong&gt;read-only&lt;/strong&gt; and &lt;strong&gt;mutable&lt;/strong&gt; lists to suit different needs.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Read-only List&lt;/strong&gt; (&lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt;): A list where the elements cannot be modified after creation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mutable List&lt;/strong&gt; (&lt;code&gt;MutableList&amp;lt;T&amp;gt;&lt;/code&gt;): A list that allows modification, including adding, removing, or changing elements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unlike arrays, lists are more flexible in Kotlin because they support many more collection operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Map Variants</title>
+      <link>//localhost:1313/docs/map-variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/map-variants/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maps</title>
+      <link>//localhost:1313/docs/maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/maps/</guid>
       <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
     </item>
     <item>
@@ -26,7 +47,56 @@
       <link>//localhost:1313/docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/overview/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;This is the overview page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import { Page } from &amp;#39;@site/src/components/Page&amp;#39;;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;2-create-a-new-page&#34;&gt;2. Create a new page&lt;/h3&gt;&#xA;&lt;p&gt;Create a new page in the &lt;code&gt;docs&lt;/code&gt; directory. The file name should be the same as the &lt;code&gt;url&lt;/code&gt; value in the front matter of the &lt;code&gt;overview.md&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: New Page&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url: &amp;#34;docs/new-page&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;&lt;strong&gt;About Me&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;K M Rejowan Ahmmed&lt;/strong&gt;, an &lt;strong&gt;Android Developer&lt;/strong&gt; based in &lt;strong&gt;Dhaka, Bangladesh&lt;/strong&gt; with over &lt;strong&gt;5 years of experience&lt;/strong&gt;. I specialize in building Android apps using &lt;strong&gt;Kotlin&lt;/strong&gt;, &lt;strong&gt;Jetpack Compose&lt;/strong&gt;, and other modern Android tools. I also create content to help others learn Android development and Kotlin.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &lt;a href=&#34;https://github.com/ahmmedrejowan/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/GitHub-%20-grey?style=flat&amp;logo=github&amp;logoColor=white&amp;labelColor=24292e&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/in/ahmmedrejowan/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/LinkedIn-%20-grey?style=flat&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=0077B5&#34; /&gt; &lt;/a&gt;  &lt;a href=&#34;https://twitter.com/ahmmedrejowan&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/X-%20-grey?style=flat&amp;logo=x&amp;logoColor=white&amp;labelColor=1DA1F2&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://dev.to/ahmmedrejowan&#34;&gt;  &lt;img src=&#34;https://img.shields.io/badge/Dev-%20-grey?style=flat&amp;logo=devdotto&amp;logoColor=white&amp;labelColor=0A0A0A&#34; /&gt; &lt;/a&gt;  &lt;a href=&#34;https://stackoverflow.com/users/9932194/k-m-rejowan-ahmmed&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/Stack_Overflow-%20-grey?style=flat&amp;logo=stack-overflow&amp;logoColor=white&amp;labelColor=FE7A16&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://www.facebook.com/ahmmedrejowan/&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/Facebook-%20-grey?style=flat&amp;logo=facebook&amp;logoColor=white&amp;labelColor=1877F2&#34; /&gt; &lt;/a&gt;  &lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;what-is-dsakt&#34;&gt;&lt;strong&gt;What is DSA.kt?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;DSA.kt&lt;/strong&gt; is a comprehensive platform for learning &lt;strong&gt;Data Structures &amp;amp; Algorithms in Kotlin&lt;/strong&gt;. This site aims to make complex concepts in algorithms and data structures more accessible, especially for those who want to implement solutions using &lt;strong&gt;Kotlin&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pair &amp; Triple</title>
+      <link>//localhost:1313/docs/pair-triple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/pair-triple/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Queues</title>
+      <link>//localhost:1313/docs/queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/queues/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Range &amp; Sequence</title>
+      <link>//localhost:1313/docs/range-sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/range-sequence/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Set Variants</title>
+      <link>//localhost:1313/docs/set-variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/set-variants/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sets</title>
+      <link>//localhost:1313/docs/sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/sets/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stacks</title>
+      <link>//localhost:1313/docs/stacks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/stacks/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trees</title>
+      <link>//localhost:1313/docs/trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/trees/</guid>
+      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

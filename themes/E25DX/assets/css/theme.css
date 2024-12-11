@@ -9,7 +9,7 @@
   --color-nav: rgba(0, 0, 0, .7);
 
   --background: #ffffff;
-  --background-grey: #f9f9f9;
+  --background-grey: #efefef;
   --background-grey-embed: #f0f0f0;
 
   --foreground: rgba(247, 247, 247, .25);
@@ -71,7 +71,7 @@
   --color-nav: rgba(255, 255, 255, .8);
 
   --background: #101010;
-  --background-grey: #1e1e1e;
+  --background-grey: #333;
   --background-grey-embed: #2f2d2d;
 
   --foreground: rgba(19, 19, 19, 1);
