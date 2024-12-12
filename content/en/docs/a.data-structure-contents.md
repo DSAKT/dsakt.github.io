@@ -46,7 +46,3 @@ The data structure module contains the following data structures:
     - **HashMap<K, V>**: A map implementation based on hashing that provides fast lookups.
     - **LinkedHashMap<K, V>**: A `HashMap` that maintains insertion order.
     - **SortedMap<K, V>**: A `Map` that stores keys in a sorted order.
-
-- **Range & Sequence** [⤴](https://dsakt.github.io/docs/range-sequence)
-    - **Range<T>**: Represents a range of values (e.g., `1..10`).
-    - **Sequence<T>**: A lazily evaluated collection for memory-efficient processing.
