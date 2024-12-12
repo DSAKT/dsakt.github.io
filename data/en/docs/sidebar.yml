@@ -3,6 +3,7 @@
     - title: Overview
 
 - title: Data Structures
+  replaceFirstPageTitle: Contents
   pages:
     - title: DS Contents
     - title: Arrays
