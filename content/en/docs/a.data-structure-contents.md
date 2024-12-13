@@ -30,6 +30,7 @@ The data structure module contains the following data structures:
     - **Stack<T>**: A collection that follows LIFO (last-in, first-out) order. You can use `MutableList<T>` or `ArrayDeque<T>` to implement stack-like behavior.
 
 - **Tree Structures** [⤴](https://dsakt.github.io/docs/trees)
+    - **Tree Nodes**: Basic building blocks of tree structures.
     - **TreeMap<K, V>**: A map that stores keys in sorted order, based on a tree structure.
     - **TreeSet<T>**: A set that stores elements in sorted order.
 
