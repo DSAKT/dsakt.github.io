@@ -2,7 +2,7 @@
 title: Data Structure
 slug: data-structure
 ---
-# **What are Data Structures?**
+## **What are Data Structures?**
 
 A **data structure** is a way to organize and store data so that it can be accessed and modified efficiently. Data structures are fundamental in computer science, serving as the backbone for organizing and processing data in various applications—from databases to machine learning algorithms.
 
@@ -40,7 +40,7 @@ Kotlin, being a modern and expressive language, offers a rich set of built-in da
 
 ---
 
-### **Overview of Kotlin Data Structures**
+## **Overview of Kotlin Data Structures**
 
 #### **1. Array & Specialized Arrays**
 - **Array<T>:**  
@@ -94,7 +94,7 @@ Kotlin, being a modern and expressive language, offers a rich set of built-in da
 
 ---
 
-### **Choosing the Right Data Structure**
+## **Choosing the Right Data Structure**
 
 Understanding the available data structures and their use cases helps in selecting the best one for your needs:
 - Use **Array** for fixed-size, indexed data.
