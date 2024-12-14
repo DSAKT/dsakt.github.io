@@ -116,7 +116,7 @@ structures available in Kotlin:
 
 Caption: A diagram of the Kotlin collection interfaces
 
-#### **1. Array & Specialized Arrays**
+### **1. Array**
 
 - **Array<T>:**  
   A fixed-size array holding elements of type `T`. It supports both read and write operations.
@@ -124,28 +124,28 @@ Caption: A diagram of the Kotlin collection interfaces
   Optimized arrays for primitive types like `IntArray`, `CharArray`, and `ByteArray`, which offer
   better performance than generic arrays.
 
-#### **2. List**
+### **2. List**
 
 - **List<T>:**  
   A read-only, ordered collection of elements that can contain duplicates.
 - **MutableList<T>:**  
   A modifiable version of `List`, allowing addition, removal, and updating of elements.
 
-#### **3. Set**
+### **3. Set**
 
 - **Set<T>:**  
   A collection of unique elements, ensuring no duplicates.
 - **MutableSet<T>:**  
   A mutable version of `Set` that supports modifications.
 
-#### **4. Map**
+### **4. Map**
 
 - **Map<K, V>:**  
   A read-only collection of key-value pairs. Keys are unique, but values can repeat.
 - **MutableMap<K, V>:**  
   A modifiable version of `Map` that allows changes to keys and values.
 
-#### **5. Queue & Deque**
+### **5. Queue & Deque**
 
 - **Queue<T>:**  
   A collection following First-In-First-Out (FIFO) operations. Typically implemented using
@@ -155,12 +155,12 @@ Caption: A diagram of the Kotlin collection interfaces
 - **LinkedList<T>:**  
   A doubly linked list, also supporting `Queue` and `Deque` operations.
 
-#### **6. Stack**
+### **6. Stack**
 
 - **Stack<T>:**  
   Follows Last-In-First-Out (LIFO) order. Can be implemented using `ArrayDeque` or `MutableList`.
 
-#### **7. Tree Structures**
+### **7. Tree Structures**
 
 - **TreeMap<K, V>:**  
   A map implementation that stores keys in sorted order.
@@ -169,7 +169,7 @@ Caption: A diagram of the Kotlin collection interfaces
 
   *(Note: TreeMap and TreeSet are accessible in Kotlin through Java interop.)*
 
-#### **8. Pair & Triple**
+### **8. Pair & Triple**
 
 - **Pair<A, B>:**  
   Stores two related elements as a single object.

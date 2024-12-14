@@ -79,7 +79,7 @@ Algorithms provide a structured approach to problem-solving, offering several be
     problem-solving skills.
 
 Algorithms are the building blocks of software development, enabling developers to create efficient
-and reliable solutions to a wide range of problems.
+and reliable solutions to a wide range of problems. Now, let’s explore how Kotlin makes implementing these algorithms both simpler and more efficient.
 
 ## **Algorithms in Kotlin**
 
@@ -124,7 +124,7 @@ solutions to a wide range of computational problems.
 
 Algorithms can be broadly classified based on their design paradigm or the type of problem they
 solve. Understanding these categories helps in selecting the right approach for specific
-computational tasks. Below are the key categories of algorithms:
+computational tasks. Algorithms can be categorized based on their approach or the type of problem they address. Below are some key categories and their typical applications.
 
 ### **1. Sorting Algorithms**
 
