@@ -1,7 +1,8 @@
 - title: Overview
   pages:
     - title: Overview
-    - title: Data Structure
+    - title: Data Structures
+    - title: Algorithms
 
 - title: Data Structures
   replaceFirstPageTitle: Contents
