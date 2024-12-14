@@ -31,7 +31,7 @@ processing data in various applications—from databases to machine learning alg
 What will happen if you store all your books in a single pile without any order? It will be hard to
 find a specific book when you need it.
 
-![Book Pile](https://dsakt.github.io/images/img_ds_book.webp)
+![Book Pile](https://dsakt.github.io/images/img_ds_book.jpeg)
 
 Caption: Organized vs. Unorganized Book Pile
 
@@ -112,7 +112,7 @@ Kotlin provides a wide range of data structures to suit different needs. As Kotl
 with Java, you can also use Java's collections in Kotlin code. Here are some of the key data
 structures available in Kotlin:
 
-![Book Pile](https://dsakt.github.io/images/kotlin-collection.png)
+![Kotlin Collection](https://dsakt.github.io/images/kotlin-collection.png)
 
 Caption: A diagram of the Kotlin collection interfaces
 
