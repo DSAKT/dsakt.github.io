@@ -1,6 +1,6 @@
 ---
-title: Data Structure
-slug: data-structure
+title: Data Structures
+slug: data-structures
 ---
 
 ## **What are Data Structures?**
