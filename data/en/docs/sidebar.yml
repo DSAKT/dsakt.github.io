@@ -6,9 +6,7 @@
     - title: Complexity
 
 - title: Data Structures
-  replaceFirstPageTitle: Contents
   pages:
-    - title: DS Contents
     - title: Arrays
     - title: Lists
     - title: Sets
