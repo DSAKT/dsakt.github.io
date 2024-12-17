@@ -33,9 +33,7 @@
 
 <div id="content-wrapper">
     <header>
-        <!--    <a href="/" class="site-logo">{{ .Site.Title }}</a>-->
         <a href="/"><img src="/favicon/dsalogo.png" width="188px" height="50px"/> </a>
-
     </header>
 
     <main>
@@ -45,7 +43,14 @@
                     <h1>{{ .Site.Params.home.heading }}{{ with .Site.Params.home.headingSegment2 }}<span>{{.}}</span>{{
                         end }}</h1>
                     <p>{{ .Site.Params.home.description }}</p>
+
+                    <br/>
+
+                    <div>A platform for learning Data Structures and Algorithms using Kotlin. It
+                        provides clear explanations, practical examples, and hands-on problem-solving techniques. Ideal for both beginners and advanced learners looking to enhance their DSA skills.</div>
+
                 </header>
+
                 <div>
                     <a class="btn" href="{{ .Site.Params.home.getStartedPath }}">{{ i18n "getStarted" }}</a>
                     <a class="btn" href="https://github.com/{{ .Site.Params.project.github.repo }}" target="_blank">GitHub</a>

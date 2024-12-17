@@ -105,6 +105,13 @@ main > section > div > header > p {
   font-size: 1.2em;
 }
 
+main > section > div > header > div {
+  color: var(--color-fade);
+  font-size: 1.1em;
+  margin: 0 20%;
+  justify-content: center;
+}
+
 main > section > div > div {
   display: flex;
   justify-content: center;
@@ -136,6 +143,10 @@ main > section > div > div > .btn:last-child, main > section > div > div > .btn:
 
   main > section > div > header > p {
     font-size: 1.4em
+  }
+
+  main > section > div > header > div {
+    font-size: 1.1em
   }
 
   main > section > div > div {

@@ -1,102 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on DSA in Kotlin</title>
+    <title>Docs on Data Structures and Algorithms in Kotlin</title>
     <link>//localhost:1313/docs/</link>
-    <description>Recent content in Docs on DSA in Kotlin</description>
+    <description>Recent content in Docs on Data Structures and Algorithms in Kotlin</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms</title>
+      <link>//localhost:1313/docs/algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/algorithms/</guid>
+      <description>&lt;h2 id=&#34;what-are-algorithms&#34;&gt;&lt;strong&gt;What are Algorithms?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;According to Wikipedia,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In mathematics and computer science, an algorithm is a finite sequence of mathematically rigorous&lt;br&gt;&#xA;instructions, typically used to solve a class of specific problems or to perform a computation.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In Simple words,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;An algorithm is a set of well-defined steps to solve a particular problem or perform a specific&lt;br&gt;&#xA;task.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In other words,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s the step-by-step procedure to solve a problem.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But a good algorithm is more than just a set of steps. It&amp;rsquo;s about efficiency, correctness, and&lt;br&gt;&#xA;elegance. It&amp;rsquo;s about finding the best way to solve a problem, not just any way.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Arrays</title>
       <link>//localhost:1313/docs/arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/arrays/</guid>
-      <description>&lt;h2 id=&#34;array-in-kotlin&#34;&gt;&lt;strong&gt;Array in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In Kotlin, an &lt;strong&gt;Array&lt;/strong&gt; is a fixed-size collection that holds elements of the same type. Once an array is created, its size cannot be changed. Arrays in Kotlin are similar to arrays in other programming languages, but they provide some added flexibility with additional features and built-in functions.&lt;/p&gt;&#xA;&lt;p&gt;An &lt;code&gt;Array&amp;lt;T&amp;gt;&lt;/code&gt; can hold any type of data (including objects and primitives), and it has a defined size that remains constant throughout its lifecycle.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;arrays-and-specialized-arrays-in-kotlin&#34;&gt;&lt;strong&gt;Arrays and Specialized Arrays in Kotlin&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Arrays are one of the most fundamental data structures in programming, allowing&lt;br&gt;&#xA;you to store and manipulate collections of elements. Kotlin provides a powerful&lt;br&gt;&#xA;and concise implementation of arrays, blending traditional array concepts with&lt;br&gt;&#xA;modern language features. Whether you&amp;rsquo;re working with fixed-size collections or&lt;br&gt;&#xA;need specialized types for performance, Kotlin&amp;rsquo;s array support has you covered.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we&amp;rsquo;ll explore Kotlin arrays and their specialized variants,&lt;br&gt;&#xA;examining their features, syntax, and best practices for effective usage.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DS Contents</title>
-      <link>//localhost:1313/docs/ds-contents/</link>
+      <title>Complexity</title>
+      <link>//localhost:1313/docs/complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/ds-contents/</guid>
-      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;p&gt;The data structure module contains the following data structures:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Array &amp;amp; Specialized Arrays&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/arrays&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Array&lt;T&gt;&lt;/strong&gt;: A fixed-size array that holds elements of type &lt;code&gt;T&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ByteArray, CharArray, IntArray, etc.&lt;/strong&gt;: Specialized arrays for primitive types (e.g., &lt;code&gt;Int&lt;/code&gt;, &lt;code&gt;Char&lt;/code&gt;, &lt;code&gt;Byte&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;List&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/lists&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;List&lt;T&gt;&lt;/strong&gt;: An ordered collection of elements, read-only.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MutableList&lt;T&gt;&lt;/strong&gt;: A list that supports modification operations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Set&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/sets&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Set&lt;T&gt;&lt;/strong&gt;: A collection that does not allow duplicates, read-only.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MutableSet&lt;T&gt;&lt;/strong&gt;: A mutable version of &lt;code&gt;Set&amp;lt;T&amp;gt;&lt;/code&gt;, supports modifications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Map&lt;/strong&gt; &lt;a href=&#34;https://dsakt.github.io/docs/maps&#34;&gt;⤴&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/complexity/</guid>
+      <description>&lt;h2 id=&#34;what-is-complexity&#34;&gt;&lt;strong&gt;What is Complexity?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In computer science, &lt;strong&gt;complexity&lt;/strong&gt; refers to the performance characteristics of algorithms, such as&lt;br&gt;&#xA;how much time or space they require to solve a problem. Complexity analysis helps in understanding&lt;br&gt;&#xA;the efficiency of algorithms and predicting their behavior as the input size grows.&lt;/p&gt;&#xA;&lt;p&gt;An algorithm&amp;rsquo;s performance isn’t measured by timing its execution on a specific machine, as this can&lt;br&gt;&#xA;vary based on hardware and software configurations. Instead, complexity analysis focuses on the&lt;br&gt;&#xA;algorithm’s behavior in terms of the input size, providing a more general understanding of its&lt;br&gt;&#xA;efficiency.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Structures</title>
+      <link>//localhost:1313/docs/data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/data-structures/</guid>
+      <description>&lt;h2 id=&#34;what-are-data-structures&#34;&gt;&lt;strong&gt;What are Data Structures?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;According to Wikipedia,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In computer science, a data structure is a data organization and storage format that is usually&lt;br&gt;&#xA;chosen for efficient access to data.More precisely, a data structure is a collection of data&lt;br&gt;&#xA;values,&lt;br&gt;&#xA;the relationships among them, and the functions or operations that can be applied to the data,&lt;br&gt;&#xA;i.e.,&lt;br&gt;&#xA;it is an algebraic structure about data.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In Simple words,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A data structure is a way to organize and store data so that it can be accessed and modified&lt;br&gt;&#xA;efficiently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lists</title>
       <link>//localhost:1313/docs/lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/lists/</guid>
-      <description>&lt;h2 id=&#34;list-in-kotlin&#34;&gt;&lt;strong&gt;List in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;List&lt;/strong&gt; in Kotlin is an ordered collection of elements where each element has a specific index. Lists are a part of the &lt;strong&gt;Collections Framework&lt;/strong&gt; in Kotlin and are used to store multiple elements of the same type. Kotlin provides both &lt;strong&gt;read-only&lt;/strong&gt; and &lt;strong&gt;mutable&lt;/strong&gt; lists to suit different needs.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Read-only List&lt;/strong&gt; (&lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt;): A list where the elements cannot be modified after creation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mutable List&lt;/strong&gt; (&lt;code&gt;MutableList&amp;lt;T&amp;gt;&lt;/code&gt;): A list that allows modification, including adding, removing, or changing elements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unlike arrays, lists are more flexible in Kotlin because they support many more collection operations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Map Variants</title>
-      <link>//localhost:1313/docs/map-variants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/map-variants/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;lists-in-kotlin&#34;&gt;Lists in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Lists are one of the most commonly used data structures in programming. They provide an ordered collection of elements, making it easy to store and retrieve data by maintaining a sequence. Kotlin takes the concept of lists further with a concise and expressive syntax, immutability by default, and extensive support for functional programming.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-overview-of-lists&#34;&gt;2. &lt;strong&gt;Overview of Lists&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;definition-and-purpose&#34;&gt;Definition and Purpose&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;list&lt;/strong&gt; is an ordered collection of elements, where each element can be accessed by its position (index). Lists in Kotlin are part of the &lt;code&gt;kotlin.collections&lt;/code&gt; package and come in two primary flavors:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Maps</title>
       <link>//localhost:1313/docs/maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/maps/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;maps-in-kotlin&#34;&gt;Maps in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Maps are a key collection type in programming, designed to store key-value pairs. Unlike lists or sets, maps allow you to associate a unique key with a specific value, making them invaluable for tasks like indexing, grouping, and quick lookups.&lt;/p&gt;&#xA;&lt;p&gt;In Kotlin, maps are part of the &lt;code&gt;kotlin.collections&lt;/code&gt; package and come with a variety of implementations tailored to different requirements. This post explores Kotlin’s map implementations, their key characteristics, and practical use cases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Overview</title>
       <link>//localhost:1313/docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/overview/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;&lt;strong&gt;About Me&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;K M Rejowan Ahmmed&lt;/strong&gt;, an &lt;strong&gt;Android Developer&lt;/strong&gt; based in &lt;strong&gt;Dhaka, Bangladesh&lt;/strong&gt; with over &lt;strong&gt;5 years of experience&lt;/strong&gt;. I specialize in building Android apps using &lt;strong&gt;Kotlin&lt;/strong&gt;, &lt;strong&gt;Jetpack Compose&lt;/strong&gt;, and other modern Android tools. I also create content to help others learn Android development and Kotlin.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &lt;a href=&#34;https://github.com/ahmmedrejowan/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/GitHub-%20-grey?style=flat&amp;logo=github&amp;logoColor=white&amp;labelColor=24292e&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/in/ahmmedrejowan/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/LinkedIn-%20-grey?style=flat&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=0077B5&#34; /&gt; &lt;/a&gt;  &lt;a href=&#34;https://twitter.com/ahmmedrejowan&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/X-%20-grey?style=flat&amp;logo=x&amp;logoColor=white&amp;labelColor=1DA1F2&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://dev.to/ahmmedrejowan&#34;&gt;  &lt;img src=&#34;https://img.shields.io/badge/Dev-%20-grey?style=flat&amp;logo=devdotto&amp;logoColor=white&amp;labelColor=0A0A0A&#34; /&gt; &lt;/a&gt;  &lt;a href=&#34;https://stackoverflow.com/users/9932194/k-m-rejowan-ahmmed&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/Stack_Overflow-%20-grey?style=flat&amp;logo=stack-overflow&amp;logoColor=white&amp;labelColor=FE7A16&#34; /&gt; &lt;/a&gt; &lt;a href=&#34;https://www.facebook.com/ahmmedrejowan/&#34;&gt; &lt;img src=&#34;https://img.shields.io/badge/Facebook-%20-grey?style=flat&amp;logo=facebook&amp;logoColor=white&amp;labelColor=1877F2&#34; /&gt; &lt;/a&gt;  &lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;what-is-dsakt&#34;&gt;&lt;strong&gt;What is DSA.kt?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;DSA.kt&lt;/strong&gt; is a comprehensive platform for learning &lt;strong&gt;Data Structures &amp;amp; Algorithms in Kotlin&lt;/strong&gt;. This site aims to make complex concepts in algorithms and data structures more accessible, especially for those who want to implement solutions using &lt;strong&gt;Kotlin&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;DSA.kt is not official documentation or a highly formal platform.&lt;br&gt;&#xA;Instead, it’s my personal understanding of Data Structures and Algorithms in the context of Kotlin.&lt;br&gt;&#xA;My goal is to explain what I know and understand in simple terms, making these concepts accessible to everyone.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;a-little-background&#34;&gt;&lt;strong&gt;A Little Background&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I’m not from a Software Engineering or Computer Science academic background. Tech has always been my passion. Learning programming and software development was a completely &lt;strong&gt;self-taught journey&lt;/strong&gt;, using various online resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pair &amp; Triple</title>
       <link>//localhost:1313/docs/pair-triple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/pair-triple/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;pairs-and-triples-in-kotlin&#34;&gt;Pairs and Triples in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Pairs and Triples are lightweight, immutable data structures in Kotlin, used to store two or three values, respectively. They are part of Kotlin’s standard library and provide a simple way to group related data without creating a custom class.&lt;/p&gt;&#xA;&lt;p&gt;Understanding these structures and their use cases can simplify your code, especially when dealing with operations like returning multiple values from a function or grouping data in collections.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Queues</title>
       <link>//localhost:1313/docs/queues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/queues/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Range &amp; Sequence</title>
-      <link>//localhost:1313/docs/range-sequence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/range-sequence/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Set Variants</title>
-      <link>//localhost:1313/docs/set-variants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/set-variants/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;queues-in-kotlin&#34;&gt;Queues in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Queues are a foundational data structure in computer science, designed to store and process elements in a specific order. Unlike stacks, queues operate on the &lt;strong&gt;FIFO (First-In, First-Out)&lt;/strong&gt; principle, meaning elements are added at the end and removed from the front.&lt;/p&gt;&#xA;&lt;p&gt;In Kotlin, queues are part of the &lt;code&gt;kotlin.collections&lt;/code&gt; package and come with efficient implementations for different use cases, including &lt;strong&gt;double-ended queues (Deque)&lt;/strong&gt; and linked lists. These implementations provide robust support for both FIFO and LIFO (Last-In, First-Out) operations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sets</title>
       <link>//localhost:1313/docs/sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/sets/</guid>
-      <description>&lt;h2 id=&#34;set-in-kotlin&#34;&gt;&lt;strong&gt;Set in Kotlin&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Set&lt;/strong&gt; in Kotlin is a collection that contains &lt;strong&gt;unique elements&lt;/strong&gt;. The main characteristic of a set is that it does not allow &lt;strong&gt;duplicate elements&lt;/strong&gt;. Sets are unordered, meaning they do not maintain the order of the elements.&lt;/p&gt;&#xA;&lt;p&gt;Kotlin provides both &lt;strong&gt;read-only&lt;/strong&gt; and &lt;strong&gt;mutable&lt;/strong&gt; sets:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;Set&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/strong&gt;: A &lt;strong&gt;read-only&lt;/strong&gt; set, meaning the elements cannot be added, removed, or changed after the set is created.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;MutableSet&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/strong&gt;: A &lt;strong&gt;mutable&lt;/strong&gt; set, which allows you to add, remove, and modify elements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;creating-a-set&#34;&gt;&lt;strong&gt;Creating a Set&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Kotlin offers several ways to create sets:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;sets-in-kotlin&#34;&gt;Sets in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Sets are a fundamental collection type in programming, designed to store unique elements. Unlike lists, sets do not maintain a specific order and disallow duplicate values, making them ideal for scenarios where uniqueness is essential.&lt;/p&gt;&#xA;&lt;p&gt;In Kotlin, sets are part of the &lt;code&gt;kotlin.collections&lt;/code&gt; package and come with robust features like immutability by default, concise syntax, and extensive support for functional programming.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-overview-of-sets&#34;&gt;2. &lt;strong&gt;Overview of Sets&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;definition-and-purpose&#34;&gt;Definition and Purpose&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;set&lt;/strong&gt; is an unordered collection of unique elements. Kotlin offers two primary types of sets:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stacks</title>
       <link>//localhost:1313/docs/stacks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/stacks/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;stacks-in-kotlin&#34;&gt;Stacks in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Stacks are a fundamental data structure in computer science, characterized by their &lt;strong&gt;LIFO (Last-In, First-Out)&lt;/strong&gt; behavior. This means that the last element added to the stack is the first one to be removed. Stacks are widely used in various computational tasks, including function call management, expression evaluation, and backtracking algorithms.&lt;/p&gt;&#xA;&lt;p&gt;In Kotlin, stacks can be implemented using collections such as &lt;code&gt;ArrayDeque&lt;/code&gt; or &lt;code&gt;LinkedList&lt;/code&gt;. While Kotlin doesn’t provide a dedicated &lt;code&gt;Stack&lt;/code&gt; class, these collections offer all the methods needed to simulate stack behavior efficiently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trees</title>
       <link>//localhost:1313/docs/trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/trees/</guid>
-      <description>&lt;h1 id=&#34;hi-world&#34;&gt;Hi World&lt;/h1&gt;&#xA;&lt;p&gt;This is the hello world page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;&#xA;&lt;p&gt;This is the first section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-2&#34;&gt;Section 2&lt;/h2&gt;&#xA;&lt;p&gt;This is the second section.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;trees-in-kotlin&#34;&gt;Trees in Kotlin&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Trees are hierarchical data structures widely used in computer science for representing relationships between elements. They consist of nodes connected by edges, with one root node at the top and child nodes forming subtrees below.&lt;/p&gt;&#xA;&lt;p&gt;In Kotlin, trees can be implemented using classes and data structures, providing flexibility to represent various tree types, such as binary trees, binary search trees (BST), and n-ary trees. Understanding trees is crucial for solving problems related to searching, sorting, and hierarchical data representation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
