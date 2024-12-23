@@ -9,6 +9,9 @@ aliases:
 > Instead, it’s my personal understanding of Data Structures and Algorithms in the context of Kotlin. 
 > My goal is to explain what I know and understand in simple terms, making these concepts accessible to everyone.
 
+![Overview](https://dsakt.github.io/images/cover/Overview.png)
+
+
 ## **A Little Background**
 
 I’m not from a Software Engineering or Computer Science academic background. Tech has always been my passion. Learning programming and software development was a completely **self-taught journey**, using various online resources.
