@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ .Page.Params.description | default .Site.Params.description | .RenderString }}">
   <meta name="author" content="{{ .Site.Params.author.name }}">
+
+  <meta content="{{ .title | .RenderString }}" property="og:title">
+  <meta content="DSA.kt is a platform for learning Data Structures and Algorithms using Kotlin. It provides clear explanations, practical examples, and hands-on problem-solving techniques. Ideal for both beginners and advanced learners looking to enhance their DSA skills." property="og:description">
+  <meta content="https://dsakt.github.io/favicon/social.png" property="og:image">
+
+
   <meta name="theme-color" content="{{ .Site.Params.project.themeColor.light }}" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="{{ .Site.Params.project.themeColor.dark }}" media="(prefers-color-scheme: dark)">
   {{ with .Params.robots -}}
