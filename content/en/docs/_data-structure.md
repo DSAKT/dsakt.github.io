@@ -5,6 +5,9 @@ slug: data-structures
 
 ## **What are Data Structures?**
 
+![Data Structures](https://dsakt.github.io/images/cover/Data%20Structures.png)
+
+
 According to Wikipedia,
 > In computer science, a data structure is a data organization and storage format that is usually
 > chosen for efficient access to data.More precisely, a data structure is a collection of data

@@ -5,6 +5,9 @@ slug: complexity
 
 ## **What is Complexity?**
 
+![Complexity](https://dsakt.github.io/images/cover/Complexity.png)
+
+
 In computer science, **complexity** refers to the performance characteristics of algorithms, such as
 how much time or space they require to solve a problem. Complexity analysis helps in understanding
 the efficiency of algorithms and predicting their behavior as the input size grows.
